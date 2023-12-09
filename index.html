@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivina el número</title>
+  <script src="https://kit.fontawesome.com/66349fc88a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://beta.adalab.es/resources/stylesheets/all.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Adivina el número</h1>
+  </header>
+  <main>
+    <section class="title">
+      <h2>Introduce aquí tu número:</h2>
+      <form class="form">
+        <label class="label" for="number"></label>
+            <input class="form__input-text js__input" type="number" name="number" id="number" min="0" max="100" placeholder="Escribe el número y dale a Prueba"/>
+            <input class="form__btn js__prueba" type="submit" name="number" id="number" value="Prueba">
+      </form>
+    </section>
+    <div class="result__parrafo">
+        <p class="parrafo js__pista">Pista:<span class="js_fullname_result"></span></p>
+    </div>
+    <div class="result__parrafo">
+        <p class="parrafo js__intentos">Número de intentos:<span class="js_fullname_result"></span></p>
+    </div>
+  </main>
+  <script src="./js/main.js"></script>
+</body>
+</html>
