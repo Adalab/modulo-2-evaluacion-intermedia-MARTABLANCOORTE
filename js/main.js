@@ -21,7 +21,7 @@ function getRandomNumber(max) {
     return Math.ceil(Math.random() * max);
 }
 
-console.log(randomNumber);
+console.log(`Mi número aleatorio es${randomNumber}`);
 
 
 //eventos
